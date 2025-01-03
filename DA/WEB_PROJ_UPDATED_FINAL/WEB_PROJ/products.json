@@ -1,0 +1,58 @@
+[
+  {
+    "name": "T-shirt",
+    "description": "Casual t-shirt for everyday wear.",
+    "category": "Men's Clothing",
+    "price": 20,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Jeans",
+    "description": "Slim fit jeans, comfortable and stylish.",
+    "category": "Men's Clothing",
+    "price": 50,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Dress",
+    "description": "Elegant dress for special occasions.",
+    "category": "Women's Clothing",
+    "price": 60,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Hoodie",
+    "description": "Warm and comfortable hoodie.",
+    "category": "Men's Clothing",
+    "price": 40,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Skirt",
+    "description": "Stylish skirt for a trendy look.",
+    "category": "Women's Clothing",
+    "price": 35,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Sneakers",
+    "description": "Comfortable sneakers for daily use.",
+    "category": "Shoes",
+    "price": 70,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Formal Shirt",
+    "description": "Formal shirt for a professional look.",
+    "category": "Men's Clothing",
+    "price": 30,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Dress Shoes",
+    "description": "Classy shoes for formal occasions.",
+    "category": "Shoes",
+    "price": 80,
+    "image": "https://via.placeholder.com/150"
+  }
+]

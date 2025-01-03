@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Black Tuxedo Suit",
+    "description": "Classic black tuxedo suit for men, perfect for formal occasions.",
+    "category": "Men's Formal",
+    "price": 199.99,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Formal Shirt",
+    "description": "Formal shirt for a professional look.",
+    "category": "Men's Formal",
+    "price": 30,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Dress Shoes",
+    "description": "Classy shoes for formal occasions.",
+    "category": "Men's Formal",
+    "price": 80,
+    "image": "https://via.placeholder.com/150"
+  }
+]

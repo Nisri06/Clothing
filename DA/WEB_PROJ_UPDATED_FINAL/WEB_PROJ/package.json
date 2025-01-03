@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start:login": "node loginserver.js",
+    "start:signup": "node signupserver.js",
+    "start:all": "concurrently \"npm run start:login\" \"npm run start:signup\""
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2"
+  }
+}

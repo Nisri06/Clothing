@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Red Carpet Gown",
+    "description": "Elegant red carpet gown for women, perfect for formal events and parties.",
+    "category": "Women's Formal",
+    "price": 299.99,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Dress",
+    "description": "Elegant dress for special occasions.",
+    "category": "Women's Formal",
+    "price": 60,
+    "image": "https://via.placeholder.com/150"
+  }
+]

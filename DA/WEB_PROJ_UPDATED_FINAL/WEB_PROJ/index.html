@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxe Threads - Luxury Clothing for Every Occasion</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Marquee for Offer -->
+    <div class="marquee">
+      <marquee behavior="scroll" direction="left">
+        10% off on your first order, use code LUXE10 . Coupon valid on APP
+        purchases only. T&Cs apply.
+      </marquee>
+    </div>
+
+    <!-- New Section -->
+    <section class="top-links">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-right">
+            <a href="#" class="btn btn-link">Stores</a>
+            <a href="#" class="btn btn-link">Contact Us</a>
+            <a href="#" class="btn btn-link">Wishlist</a>
+            <a href="#" class="btn btn-link">Cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <!-- Logo on the left -->
+        <a class="navbar-brand justify-content-left" href="#">
+          <img src="logo.png" alt="Luxe Threads Logo" height="50" />
+        </a>
+
+        <!-- Toggler button for mobile view -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation items in the middle -->
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Collections</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Men</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Women</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Customize</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Wedding Store</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sale</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lookbook</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Search bar on the right -->
+        <div class="ml-auto">
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h1 class="display-4">Elevate Your Style</h1>
+            <p class="lead">Opulence Redefined</p>
+            <a href="#" class="btn btn-primary">Shop Now</a>
+          </div>
+          <div class="col-md-6">
+            <img src="opulence.png" alt="Hero Image" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="featured-products">
+      <div class="container">
+        <h2 class="section-title">Featured Products</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <p>Men Clothes</p>
+            <div class="card">
+              <a href="#" id="product1">
+                <img src="men_menu.jpg" class="card-img-top" alt="Product 1" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <p>Women Clothes</p>
+            <div class="card">
+              <a href="#" id="product2">
+                <img
+                  src="women_menu.jpg"
+                  class="card-img-top"
+                  alt="Product 2"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-md-2">
+            <img
+              src="qualityclothing.png"
+              alt="About Image"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-6 order-md-1">
+            <h2 class="section-title">Our Story</h2>
+            <p>We are committed to providing premium quality clothing...</p>
+            <a href="#" class="btn btn-outline-dark">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Luxe Threads. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Navigate to dress_Category_men.html when clicking on VH_SL1.png
+        $("#product1").click(function () {
+          window.location.href = "dress_Category_men.html";
+        });
+
+        // Navigate to dress_Category_women.html when clicking on VH_SL2.png
+        $("#product2").click(function () {
+          window.location.href = "dress_Category_women.html";
+        });
+      });
+    </script>
+  </body>
+</html>

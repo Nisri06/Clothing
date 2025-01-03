@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Skirt",
+    "description": "Stylish skirt for a trendy look.",
+    "category": "Women's Informal",
+    "price": 35,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Sneakers",
+    "description": "Comfortable sneakers for daily use.",
+    "category": "Women's Informal",
+    "price": 70,
+    "image": "https://via.placeholder.com/150"
+  }
+]
