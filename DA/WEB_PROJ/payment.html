@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body ng-app="app" ng-controller="PaymentController">
+    <!-- Cart Details -->
+    <div class="cart-details">
+      <h2>Cart Details</h2>
+      <div ng-repeat="product in cart track by product.id">
+        <p>
+          {{ product.name }} - ${{ product.price }} X {{ product.quantity }}
+        </p>
+      </div>
+      <p>Total: ${{ getTotal() }}</p>
+    </div>
+
+    <div class="container">
+      <h1>Customer Details</h1>
+
+      <!-- Payment Form -->
+      <form name="paymentForm" ng-submit="submitPayment()" novalidate>
+        <label for="fullName">Full Name:</label>
+        <input
+          type="text"
+          id="fullName"
+          name="fullName"
+          ng-model="paymentDetails.fullName"
+          required
+        />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          ng-model="paymentDetails.email"
+          required
+        />
+
+        <label for="cardNumber">Card Number:</label>
+        <input
+          type="text"
+          id="cardNumber"
+          name="cardNumber"
+          ng-model="paymentDetails.cardNumber"
+          required
+        />
+
+        <label for="expiryDate">Expiry Date:</label>
+        <input
+          type="text"
+          id="expiryDate"
+          name="expiryDate"
+          ng-model="paymentDetails.expiryDate"
+          required
+        />
+
+
+        <button type="submit" id="payNowBtn">Pay Now</button>
+
+
+      </form>
+    </div>
+  </body>
+
+  <script>
+    document.getElementById('payNowBtn').addEventListener('click', function() {
+        alert('Payment successful');
+    });
+    </script>
+</html>

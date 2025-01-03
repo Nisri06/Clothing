@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5dc; /* Light beige background color */
+    color: #333; /* Change font color to a darker shade */
+}
+
+img {
+    object-fit: cover;
+    width: 100%; /* Adjust image width to fit container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background color for container */
+    border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff; /* Change title color to blue */
+}
+
+.category {
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+    justify-content: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #555; /* Change card title color to a slightly darker shade */
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    width: calc(45% - 30px); /* Adjust card width for better spacing */
+    max-width: 300px; /* Limit card width for smaller screens */
+    transition: transform 0.3s ease; /* Add transition effect on hover */
+    background-color: #ffffff; /* Add background color to cards */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift card slightly on hover */
+}
+
+@media (min-width: 768px) {
+    .card {
+        width: calc(45% - 20px); /* Adjust card width for larger screens */
+    }
+}

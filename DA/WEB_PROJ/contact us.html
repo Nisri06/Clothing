@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Luxe Threads</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    
+    .navbar {
+      margin-bottom: 30px;
+    }
+    
+    .footer {
+      background-color: #343a40;
+      color: #ffffff;
+      padding: 20px 0;
+      text-align: center;
+      position: relative;
+      top:130px;
+    }
+    
+    .contact-list li {
+      margin-bottom: 10px;
+    }
+    
+    .form-control {
+      margin-bottom: 15px;
+    }   
+  </style>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Luxe Threads</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h1>Contact Us</h1>
+        <p>We're here to help! Reach out to us for any inquiries or support.</p>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> info@luxethreads.com</li>
+          <li><strong>Phone:</strong> +1-123-456-7890</li>
+          <li><strong>Address:</strong> 123 Main Street, New York, NY 10001, United States</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h3>Send us a message</h3>
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  
+  <footer class="footer mt-5">
+    <div class="container">
+      <p>&copy; 2024 Luxe Threads. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

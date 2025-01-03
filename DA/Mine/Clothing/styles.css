@@ -1,0 +1,212 @@
+/* Custom styles */
+.marquee {
+    background-color: rgb(8, 28, 60);
+    color: #ffffff;
+    text-align: center;
+}
+
+.marquee marquee {
+    font-size: 16px;
+}
+
+.hero {
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.featured-products {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about {
+    padding: 100px 0;
+}
+
+.about .section-title {
+    margin-bottom: 40px;
+}
+
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px 0px;
+    text-align: right;
+    height: 40px;
+}
+
+.navbar {
+    background-color: #000000 !important;
+    /* Pitch black background color */
+    margin: 0;
+    /* Reset margins */
+    padding: 0;
+    /* Reset padding */
+}
+
+/* Center the navigation items */
+.navbar-nav {
+    margin: 0;
+    padding: 0px;
+}
+
+/* Increase spacing between nav items */
+.navbar-nav .nav-item {
+    margin-right: -5px;
+    padding-right: auto;
+}
+
+/* Style the search bar */
+.ml-auto .form-inline {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+    /* Reset margin */
+}
+
+.ml-auto .form-inline .form-control {
+    margin-right: 10px;
+}
+
+/* Adjust search button position */
+.ml-auto .form-inline .btn {
+    margin-left: 10px;
+}
+
+/* Style for Footer Container */
+.max-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Style for Footer Columns */
+.Footer_col__KgyHa {
+    flex: 1 1 100%;
+    max-width: 33.333333%;
+    padding: 0 15px;
+}
+
+/* Style for Footer Links */
+.Footer_col_list__Ra72Y {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Footer_col_listitem__wXxqJ {
+    margin-bottom: 8px;
+}
+
+.Footer_col_links__OWZtG {
+    color: #999999;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.Footer_col_links__OWZtG:hover {
+    color: #000000;
+}
+
+/* Style for Footer Title */
+.Footer_col_title__LX1Ro {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+/* Style for Footer Accordion */
+.MuiAccordionSummary-content {
+    padding: 12px 16px;
+}
+
+/* Style for Footer Form */
+.Footer_subscribform__h6Yw6 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.MuiInputBase-root {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.MuiButton-root {
+    height: 48px;
+    min-width: 150px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.MuiButton-root:hover {
+    background-color: #333333;
+}
+
+/* Style for Footer Social Links */
+.Footer_sociallinks__oQRfA {
+    margin-top: 20px;
+}
+
+.Footer_sociallinks_title__Ot3vG {
+    display: block;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.Footer_social__b9V_y a {
+    margin-right: 10px;
+}
+
+.Footer_i_social_1__ucbD0,
+.Footer_i_social_2__dQdhp,
+.Footer_i_social_3__bo7fY,
+.Footer_i_social_4__yB5Y9,
+.Footer_i_social_5__5rWkQ {
+    font-size: 20px;
+    color: #999999;
+}
+
+.Footer_i_social_1__ucbD0:hover,
+.Footer_i_social_2__dQdhp:hover,
+.Footer_i_social_3__bo7fY:hover,
+.Footer_i_social_4__yB5Y9:hover,
+.Footer_i_social_5__5rWkQ:hover {
+    color: #000000;
+}
+
+.top-links {
+    background-color: rgb(40, 36, 36);
+    color: white;
+    text-decoration: none;
+}
+
+.top-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.top-links a:hover {
+    color: #ccc;
+    text-decoration: none;
+}

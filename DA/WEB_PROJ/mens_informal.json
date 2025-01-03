@@ -1,0 +1,23 @@
+[
+  {
+    "name": "T-shirt",
+    "description": "Casual t-shirt for everyday wear.",
+    "category": "Men's Informal",
+    "price": 20,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Jeans",
+    "description": "Slim fit jeans, comfortable and stylish.",
+    "category": "Men's Informal",
+    "price": 50,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Hoodie",
+    "description": "Warm and comfortable hoodie.",
+    "category": "Men's Informal",
+    "price": 40,
+    "image": "https://via.placeholder.com/150"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Elegant Evening Gown",
+    "description": "Elegant floor-length gown for special occasions.",
+    "category": "Formal Dresses",
+    "price": 150,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Chic Lace Cocktail Dress",
+    "description": "Chic cocktail dress with lace detailing.",
+    "category": "Formal Dresses",
+    "price": 120,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Sophisticated Midi Dress",
+    "description": "Sophisticated midi dress with a tailored fit.",
+    "category": "Formal Dresses",
+    "price": 180,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Glamorous Sequin Evening Gown",
+    "description": "Glamorous evening gown with sequin embellishments.",
+    "category": "Formal Dresses",
+    "price": 200,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "name": "Timeless A-line Dress",
+    "description": "Timeless A-line dress with a sweetheart neckline.",
+    "category": "Formal Dresses",
+    "price": 160,
+    "image": "https://via.placeholder.com/150"
+  }
+]

@@ -1,0 +1,100 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* Light gray background for the entire page */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #ffffff; /* White background for the content area */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-details {
+  background-color: #ffffff; /* White background for cart details */
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-details h2 {
+  color: #333;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc; /* Add a border below the heading */
+  padding-bottom: 5px; /* Add some padding below the heading */
+}
+
+.cart-details p {
+  color: #555;
+  margin: 5px 0;
+}
+
+.cart-details .product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.cart-details .product-info:last-child {
+  border-bottom: none; /* Remove border from the last product info */
+}
+
+.cart-details .product-info .product-name {
+  font-weight: bold;
+}
+
+.cart-details .product-info .product-price {
+  color: #007bff;
+}
+
+.cart-details .total {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+.container h1 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+form {
+  display: grid;
+  grid-gap: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
